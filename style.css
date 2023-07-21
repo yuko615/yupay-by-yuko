@@ -189,7 +189,7 @@ a {
   line-height: 92%;
 }
 
-.hero__title_blueGradientBackground {
+.hero__title_bg_gr_blue {
   background: linear-gradient(135deg, #1F8ECC 0%, #5EB2E1 100%);
   background-clip: text;
   -webkit-background-clip: text;
