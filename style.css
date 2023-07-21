@@ -273,3 +273,18 @@ a {
 .card__content_all-cards {
   padding-bottom: 136px;
 }
+
+.card:hover .card__arrow {
+  opacity: 1;
+}
+
+.card__arrow {
+  opacity: 0;
+  position: absolute;
+  fill: #fff;
+  width: 53px;
+  right: 16px;
+  top: 16px;
+  transform: rotate(-45deg);
+  transition: opacity .3s ease;
+}
